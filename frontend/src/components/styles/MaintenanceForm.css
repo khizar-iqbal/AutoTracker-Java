@@ -1,0 +1,33 @@
+.card {
+    border-radius: 12px;
+    background-color: #f8f9fa;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control, .form-select {
+    border-radius: 6px;
+}
+
+.btn-lg {
+    font-size: 1.25rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-lg:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.btn-lg:active {
+    background-color: #003f7f;
+    transform: translateY(1px);
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+    border-color: #007bff;
+    transition: box-shadow 0.3s ease;
+}
